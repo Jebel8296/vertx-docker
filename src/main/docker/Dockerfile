@@ -1,7 +1,7 @@
 FROM vertx/vertx3
 
 ENV VERTICLE_NAME io.vertx.docker.HelloWorldVerticle
-ENV VERTICLE_FILE target/vertx-docker.jar
+ENV VERTICLE_FILE vertx-docker.jar
 
 ENV VERTICLE_HOME /usr/verticles
 
